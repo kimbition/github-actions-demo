@@ -5,11 +5,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - names: Echo Hello
+      - name: Echo Hello
         run: echo "Hello, World!"
 
-      - names: Show Date
+      - name: Show Date
         run: date
 
-      - names: List Files
+      - name: List Files
         run: ls -la
